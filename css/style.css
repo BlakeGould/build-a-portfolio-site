@@ -1,0 +1,76 @@
+body {
+	font-family: 'Lato', sans-serif;
+	color: #747704;
+	font-weight: 300;
+}
+
+.row {
+	width: 100%;
+}
+
+.text-muted {
+	color: #bcbbbb;
+}
+
+.text-thin {
+	font-weight: 100;
+}
+
+.title-bar, 
+.projects {
+	display: flex;
+}
+
+.title-logo {
+	margin-top: 20px;
+}
+
+.horizontal-rule {
+	background:#bcbbbb; 
+	height:6px;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+@media screen and (min-width: 453px) {
+	.title-super {
+		font-size: 60px;
+	}
+}
+
+@media screen and (max-width: 453px) {
+	h3 {
+		font-size: 14px;
+	}
+	.project-link {
+		font-size: 12px;
+	}
+}
+
+/* zocial */
+[class*="zocial-"]:before {
+	font-family: 'zocial', sans-serif;
+}
+
+.zocial {
+	text-align: center;
+	border-top-width: 3px;
+	border-top-color: #bcbbbb;
+	border-top-style: solid;
+	padding: 10px;
+}
+
+a {
+	color: #747704;
+}
+
+.zocial-github, 
+.zocial-linkedin, 
+.zocial-googleplus {
+	padding: 1em;
+}
+
+
